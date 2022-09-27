@@ -297,3 +297,34 @@ img{
 .habilidade__container{
     row-gap: 2rem;
 }
+
+.habilidade__subtitulo{
+    font-size: var(--h3-font-size);
+    color: var(--first-color-dark);
+    margin-bottom: var(--mb-2);
+}
+.habilidade__data{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 var(--mb-2);
+    margin-bottom: var(--mb-4);
+}
+.habilidade__nome{
+    text-transform: uppercase;
+}
+.habilidade__bar{
+    position: absolute;
+    bottom: -.75rem;
+    height: .25rem;
+    background-color: var(--first-color);
+}
+.habilidade__html{
+    width: 90%;
+}
+.habilidade__javascript{
+    width: 100%;
+}
+.habilidade__react{
+    width: 54%;
+}
