@@ -346,3 +346,12 @@ img{
 .habilidade__nodejs{
     width: 70%;
 }
+.habilidade__java{
+    width: 30%;
+}
+.habilidade__firebase{
+    width: 50%;
+}
+.habilidade__mysql{
+    width: 100%;
+}
