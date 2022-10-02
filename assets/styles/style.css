@@ -432,3 +432,21 @@ img{
     background-color: var(--first-color);
     color: var(--first-color-lighten);
 }
+
+.trabalho{
+    background-color: var(--first-color);
+    padding-bottom: 0;
+}
+.trabalho__container{
+    row-gap: 2rem;
+}
+.trabalho__data{
+    text-align: center;
+}
+.trabalho__titulo, .trabalho__descricao{
+    color: var(--first-color-lighten);
+}
+
+.trabalho__descricao{
+    margin-bottom: var(--mb-4);
+}
