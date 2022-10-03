@@ -450,3 +450,44 @@ img{
 .trabalho__descricao{
     margin-bottom: var(--mb-4);
 }
+
+/* MEUS CONTATOS */
+
+.contato__container{
+    row-gap: 3rem;
+}
+.contato__input{
+    width: 100%;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    background-color: var(--first-color-light);
+    font-size: var(--normal-font-size);
+    margin-bottom: var(--mb-2);
+    border-radius: .5rem;
+}
+.contato::placeholder{
+    color: var(--first-color-dark);
+    font-family: var(--body-font);
+    font-weight: var(--font-medium);
+}
+.contato__botao{
+    outline: none;
+    border: none;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    cursor: pointer;
+}
+
+.contato__info{
+    margin-bottom: var(--mb-3);
+}
+.contato__subtitulo{
+    font-size: var(--h3-font-size);
+    color: var(--first-color-dark);
+    margin-bottom: var(--mb-1);
+}
+.contato__text{
+    display: block;
+    padding-left: 1rem;
+}
