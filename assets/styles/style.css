@@ -514,3 +514,12 @@ img{
     margin: 0 var(--mb-1);
     transition: .3s;
 }
+.footer__link:hover{
+    background-color: var(--first-color-lighten);
+    color: var(--first-color);
+}
+
+.footer__copy{
+    font-size: var(--omega-tiny-font-size);
+    color: var(--text-color);
+}
