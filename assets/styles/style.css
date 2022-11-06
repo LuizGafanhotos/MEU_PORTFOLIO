@@ -523,3 +523,42 @@ img{
     font-size: var(--omega-tiny-font-size);
     color: var(--text-color);
 }
+
+/*=====AS MEDIAS QUERIES=====*/
+@media screen and (min-width: 768px){
+    .home__button{
+        width: initial;
+    }
+    .nav__menu{
+        width: var(--nav-width);
+    }
+    .sobre__container, .habilidade__container, .projeto__container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .sobre__data{
+        text-align: initial;
+    }
+    .sobre__descricao{
+        margin-bottom: var(--mb-5);
+    }
+    .sobre_informacao{
+        padding-left: 4rem;
+    }
+
+    .education__time{
+        padding: 0 2rem;
+    }
+    .trabalho{
+        background: none;
+    }
+    .trabalho__container{
+        background-color: var(--first-color);
+        grid-template-columns: 2fr 1.2fr;
+        padding: 0 2rem;
+        border-radius: .5rem;
+    }
+    .trabalho__data{
+        padding: 3rem 0;
+    }
+    
+}
