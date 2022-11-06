@@ -560,5 +560,9 @@ img{
     .trabalho__data{
         padding: 3rem 0;
     }
+
+    .trabalho__titulo, .trabalho__data{
+        text-align: initial;
+    }
     
 }
